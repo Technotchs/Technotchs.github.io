@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'MiFuenteDescargada';
+  src: url('../fonts/motorpassion.ttf') format('truetype'); /* Cambia 'mi-fuente.ttf' por el nombre real de tu archivo */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MiFuenteDescargada', sans-serif;
+  background-color: #CCCCCC;
+}
+
+
+header{
+    background-color: #808080;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#logo{
+    padding-left: 20px;
+    width: 60px;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 120px; 
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+li:hover{
+    color: rgb(255, 0, 0);
+}
+#cuerpo{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+.aside{
+    background-color: #BEBEBE;
+    width: 300px;
+    padding: 2%;
+    border-radius: 7px;
+    border-color: #5e5e5e;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+input{
+    width: 90%;
+}
+ol{
+    color: aliceblue;
+}
+ol li::marker {
+  color: #000000; 
+}
+.redes_sociales{
+    margin: 5px;
+    width: 60px;
+}
+article{
+    background-color: #BEBEBE;
+    width: 300px;
+    height: 230px;
+    padding: 2%;
+    border-radius: 7px;
+    border-color: #5e5e5e;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    color: aliceblue;
+}
+pre:hover{
+    color: rgb(255, 0, 0);
+}
+
+.moto{
+    width: 300px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.02%;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
